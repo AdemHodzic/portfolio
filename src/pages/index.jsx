@@ -262,8 +262,14 @@ const Index = () => (
           <AboutDesc>
             Young software developer striving to inspire other young people and leave this world in better state
             than I have found it { currentYear } years ago. My hobbies include coding, reading and being part of 
-            developer's community and trying to make it better, bigger and more efficient. I am also a produ member of 
+            developer's community and trying to make it better, bigger and more efficient. I am also a proud member of 
             BILD IT, a NGO that specializes in training and reeducating people in software development.
+          </AboutDesc>
+          <AboutDesc>
+            My range of expertise include about a dozen of languages from which I hold special place for
+            JavaScript and Go. I am also familiar with about a dozen of frameworks for either front or back end.
+            Most notable frameworks I know are: Node.Js, Express.js, Angular (4,5,6,7+), React, Gatsby, Spring, Django, Flask,
+            Mux, Laravel, etc.
           </AboutDesc>
         </Inner>
       </Content>
@@ -285,17 +291,13 @@ const Index = () => (
       </Divider>
       <Content speed={0.4} offset={4}>
         <Inner>
-          <Title>Get in touch</Title>
+          <Title>Want to Get in Touch With Me?</Title>
           <ContactText>
             Say <a href="mailto:athos.blade@gmail.com">Hi</a> or find me on other platforms:{' '}
             <a href="https://github.com/AdemHodzic">GitHub</a> &{' '}
             <a href="https://www.linkedin.com/in/adem-hodzic-163984150/">LinkedIn</a>
           </ContactText>
         </Inner>
-        <Footer>
-          &copy; 2018 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
-        </Footer>
       </Content>
       <Divider speed={0.1} offset={4}>
         <UpDown>
