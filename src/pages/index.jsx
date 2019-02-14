@@ -177,13 +177,14 @@ const Index = () => (
         <Inner>
           <Title>Projects</Title>
           <ProjectsWrapper>
-            <ProjectCard
-              title="Jenny"
-              link="https://github.com/AdemHodzic/Jenny"
-              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          <ProjectCard
+              title="React Tic-Tac-Toe"
+              link="http://llearn.me/React-Tic-Tac-Toe/"
+              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              This is my first cli app in node.js. Motivation behind it is my girlfriend who motivates me day after day.
+              Example app I made as part of learning React.
             </ProjectCard>
+            
             <ProjectCard
               title="Iron Bank of Bravoose"
               link="https://github.com/AdemHodzic/Iron-Bank-Of-Bravoose"
@@ -199,11 +200,11 @@ const Index = () => (
               Hangman game I made as part of my Angular trainging at work.
             </ProjectCard>
             <ProjectCard
-              title="React Tic-Tac-Toe"
-              link="https://github.com/AdemHodzic/React-Tic-Tac-Toe"
-              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+              title="Jenny"
+              link="https://github.com/AdemHodzic/Jenny"
+              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              Example app I made as part of learning React.
+              This is my first cli app in node.js. Motivation behind it is my girlfriend who motivates me day after day.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
