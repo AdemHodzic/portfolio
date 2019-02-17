@@ -24,6 +24,7 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-emotion": "^9.2.12",
+    "react-ga": "^2.5.7",
     "react-helmet": "^5.2.0",
     "react-spring": "^6.1.8",
     "tailwindcss": "^0.6.6",
