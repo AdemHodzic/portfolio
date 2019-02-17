@@ -14,13 +14,8 @@ import triangle from '../images/triangle.svg';
 import avatar from '../images/avatar.jpg';
 import '../styles/global';
 import { Link } from '../components/Link';
-import ReactGA from 'react-ga';
 
 const currentYear = (new Date()).getUTCFullYear() - 1999;
-
-ReactGA.initialize('UA-134660805-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
-
 const Divider = styled(ParallaxLayer)`
   ${tw('absolute w-full h-full')};
   background: ${props => props.bg};
