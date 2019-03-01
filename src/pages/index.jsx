@@ -15,7 +15,7 @@ import avatar from '../images/avatar.jpg';
 import '../styles/global';
 import { Link } from '../components/Link';
 
-const currentYear = (new Date()).getUTCFullYear() - 1999;
+const currentYear = new Date().getUTCFullYear() - 1999;
 const Divider = styled(ParallaxLayer)`
   ${tw('absolute w-full h-full')};
   background: ${props => props.bg};
@@ -162,8 +162,10 @@ const Index = () => (
           <BigTitle>
             Hello, <br /> I'm Hodzic Adem.
           </BigTitle>
-          <Subtitle>I'm creating elegant web solutions which I hope will change people's 
-            lives one day and inspire them to do the same.</Subtitle>
+          <Subtitle>
+            I'm creating elegant web solutions which I hope will change people's lives one day and inspire them to do
+            the same.
+          </Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -176,14 +178,14 @@ const Index = () => (
         <Inner>
           <Title>Projects</Title>
           <ProjectsWrapper>
-          <ProjectCard
+            <ProjectCard
               title="React Tic-Tac-Toe"
               link="http://llearn.me/React-Tic-Tac-Toe/"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
               Example app I made as part of learning React.
             </ProjectCard>
-            
+
             <ProjectCard
               title="Iron Bank of Bravoose"
               link="https://github.com/AdemHodzic/Iron-Bank-Of-Bravoose"
@@ -192,11 +194,13 @@ const Index = () => (
               Iron Bank of Bravoose is JavaFX app I made as part of my Java bootcamp training.
             </ProjectCard>
             <ProjectCard
-              title="Hangular"
-              link="https://github.com/AdemHodzic/hangular"
+              title="Pokedex"
+              link="http://llearn.me/react-pokedex"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              Hangman game I made as part of my Angular trainging at work.
+              Pokedex application where you can register/login and check out informations about pokemons. I used React
+              with Context api and React hooks for this project. I have also deployed a Node.Js API to Google cloud to
+              be used in this application..
             </ProjectCard>
             <ProjectCard
               title="Jenny"
@@ -255,21 +259,19 @@ const Index = () => (
           <Title>About</Title>
           <AboutHero>
             <Avatar src={avatar} alt="John Doe" />
-            <AboutSub>
-              Pain of regret or pain of discipline. Your choice.
-            </AboutSub>
+            <AboutSub>Pain of regret or pain of discipline. Your choice.</AboutSub>
           </AboutHero>
           <AboutDesc>
-            Young software developer striving to inspire other young people and leave this world in better state
-            than I have found it { currentYear } years ago. My hobbies include coding, reading and being part of 
-            developer's community and trying to make it better, bigger and more efficient. I am also a proud member of 
-            BILD IT, a NGO that specializes in training and reeducating people in software development.
+            Young software developer striving to inspire other young people and leave this world in better state than I
+            have found it {currentYear} years ago. My hobbies include coding, reading and being part of developer's
+            community and trying to make it better, bigger and more efficient. I am also a proud member of BILD IT, a
+            NGO that specializes in training and reeducating people in software development.
           </AboutDesc>
           <AboutDesc>
-            My range of expertise include about a dozen of languages from which I hold special place for
-            JavaScript and Go. I am also familiar with about a dozen of frameworks for either front or back end.
-            Most notable frameworks I know are: Node.Js, Express.js, Angular (4,5,6,7+), React, Gatsby, Spring, Django, Flask,
-            Mux, Laravel, etc.
+            My range of expertise include about a dozen of languages from which I hold special place for JavaScript and
+            Go. I am also familiar with about a dozen of frameworks for either front or back end. Most notable
+            frameworks I know are: Node.Js, Express.js, Angular (4,5,6,7+), React, Gatsby, Spring, Django, Flask, Mux,
+            Laravel, etc.
           </AboutDesc>
         </Inner>
       </Content>
