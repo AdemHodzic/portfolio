@@ -187,11 +187,13 @@ const Index = () => (
             </ProjectCard>
 
             <ProjectCard
-              title="Iron Bank of Bravoose"
-              link="https://github.com/AdemHodzic/Iron-Bank-Of-Bravoose"
+              title="Cashlix"
+              link="https://cashlix.com/"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
-              Iron Bank of Bravoose is JavaFX app I made as part of my Java bootcamp training.
+              Freelance gig where I got to prove my React skills. Alongside React, I got an oppurtunity
+              to work with Firebase, Redux, react-router and Bootstrap 4 to create landing page 
+              for this project. 
             </ProjectCard>
             <ProjectCard
               title="Pokedex"

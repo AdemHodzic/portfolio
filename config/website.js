@@ -8,7 +8,7 @@ module.exports = {
   siteUrl: 'https://ademhodzic.github.io/', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo-1024.png', // Used for SEO and manifest
-  siteDescription: 'Portfolio page of web developer based in Bosnia and Herzegovina',
+  siteDescription: 'Portfolio page of a web developer based in Bosnia and Herzegovina',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '', // Twitter Username
