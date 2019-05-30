@@ -188,7 +188,7 @@ const Index = () => (
 
             <ProjectCard
               title="Cashlix"
-              link="https://cashlix.com/"
+              link="https://app.cashlix.com/"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
               Freelance gig where I got to prove my React skills. Alongside React, I got an oppurtunity
@@ -205,11 +205,12 @@ const Index = () => (
               be used in this application..
             </ProjectCard>
             <ProjectCard
-              title="Jenny"
-              link="https://github.com/AdemHodzic/Jenny"
+              title="Confessions"
+              link="http://kodeblok.com/"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              This is my first cli app in node.js. Motivation behind it is my girlfriend who motivates me day after day.
+              Ruby on Rails application for leaving anonymous confessions and share them with other users.
+              Created using Rails, Bulma, MySQL and Devise. Deployed on a Digital Ocean Droplet.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -272,8 +273,11 @@ const Index = () => (
           <AboutDesc>
             My range of expertise include about a dozen of languages from which I hold special place for JavaScript and
             Go. I am also familiar with about a dozen of frameworks for either front or back end. Most notable
-            frameworks I know are: Node.Js, Express.js, Angular (4,5,6,7+), React, Gatsby, Spring, Django, Flask, Mux,
+            frameworks I know are: Node.Js, Express.js, Angular (4,5,6,7+), React, Gatsby, Spring, Django, Flask, Rails,
             Laravel, etc.
+          </AboutDesc>
+          <AboutDesc>
+            Additionally, I am quite good with Linux, Git, Docker, Cloud Services (Firebase and GCP) and VMs (Digital Ocean Droplets and Google Compute Engine).
           </AboutDesc>
         </Inner>
       </Content>
