@@ -183,34 +183,32 @@ const Index = () => (
               link="http://llearn.me/React-Tic-Tac-Toe/"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              Example app I made as part of learning React.
+              Example App I Made as Part of Learning React.
             </ProjectCard>
 
             <ProjectCard
-              title="Cashlix"
-              link="https://app.cashlix.com/"
+              title="Ever"
+              link="https://github.com/ever-co/ever"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
-              Freelance gig where I got to prove my React skills. Alongside React, I got an oppurtunity
-              to work with Firebase, Redux, react-router and Bootstrap 4 to create landing page 
-              for this project. 
+              Awesome Open Source Commerce Platform written in IAN Stack (Ionic, Angular and Nest.Js). Created Couple of
+              Adjustments on Angular Side and worked on supporting multiple Types of Databases on Backend.
             </ProjectCard>
             <ProjectCard
-              title="Pokedex"
-              link="http://llearn.me/react-pokedex"
+              title="Escape Assist"
+              link="https://escapeassist.com/"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              Pokedex application where you can register/login and check out informations about pokemons. I used React
-              with Context api and React hooks for this project. I have also deployed a Node.Js API to Google cloud to
-              be used in this application..
+              Platform for Assissting Escape Room Bussinesses. EscapeAssist Uses classical MEAN Stack for Most of its
+              products.
             </ProjectCard>
             <ProjectCard
               title="Confessions"
               link="http://kodeblok.com/"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              Ruby on Rails application for leaving anonymous confessions and share them with other users.
-              Created using Rails, Bulma, MySQL and Devise. Deployed on a Digital Ocean Droplet.
+              Ruby on Rails Application for Leaving Anonymous Confessions and Share Them With Other Users. Created Using
+              Rails, Bulma, MySQL and Devise. Deployed on a Digital Ocean Droplet.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -277,7 +275,8 @@ const Index = () => (
             Laravel, etc.
           </AboutDesc>
           <AboutDesc>
-            Additionally, I am quite good with Linux, Git, Docker, Cloud Services (Firebase and GCP) and VMs (Digital Ocean Droplets and Google Compute Engine).
+            Additionally, I am quite good with Linux, Git, Docker, Cloud Services (Firebase and GCP) and VMs (Digital
+            Ocean Droplets and Google Compute Engine).
           </AboutDesc>
         </Inner>
       </Content>
