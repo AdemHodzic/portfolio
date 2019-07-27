@@ -260,7 +260,7 @@ const Index = () => (
           <Title>About</Title>
           <AboutHero>
             <Avatar src={avatar} alt="John Doe" />
-            <AboutSub>Pain of regret or pain of discipline. Your choice.</AboutSub>
+            <AboutSub>Pain of Regret or Pain of Discipline. Your Choice.</AboutSub>
           </AboutHero>
           <AboutDesc>
             Young software developer striving to inspire other young people and leave this world in better state than I
