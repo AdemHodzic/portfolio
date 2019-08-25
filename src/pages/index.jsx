@@ -203,12 +203,12 @@ const Index = () => (
               products.
             </ProjectCard>
             <ProjectCard
-              title="Confessions"
+              title="Kodeblok"
               link="http://kodeblok.com/"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              Ruby on Rails Application for Leaving Anonymous Confessions and Share Them With Other Users. Created Using
-              Rails, Bulma, MySQL and Devise. Deployed on a Digital Ocean Droplet.
+              My Personal Blog Website Where I Talk About Freelancing, Developer Lifestyle and Latest Technology News.
+              Built with Hugo and Hosted on Firebase.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
