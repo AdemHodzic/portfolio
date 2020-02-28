@@ -4,9 +4,9 @@ const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
 
 module.exports = {
   /* General Information */
-  pathPrefix: '/portfolio',
+  pathPrefix: '/',
   siteMetadata: {
-    siteUrl: config.siteUrl + pathPrefix,
+    siteUrl: config.siteUrl,
   },
   /* Plugins */
   plugins: [

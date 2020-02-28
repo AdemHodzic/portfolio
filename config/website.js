@@ -5,7 +5,7 @@ module.exports = {
 
   siteTitle: 'Adem Hodzic Portfolio', // Navigation and Site Title
   siteTitleAlt: 'Adem', // Alternative Site title for SEO
-  siteUrl: 'https://ademhodzic.github.io/', // Domain of your site. No trailing slash!
+  siteUrl: 'https://portfolio-f2bf8.firebaseapp.com/', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo-1024.png', // Used for SEO and manifest
   siteDescription: 'Portfolio page of a web developer based in Bosnia and Herzegovina',

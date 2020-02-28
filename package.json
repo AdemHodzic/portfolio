@@ -44,7 +44,8 @@
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
     "predev": "postcss tailwind.css -o tailwind.custom.css",
     "prebuild": "postcss tailwind.css -o tailwind.custom.css",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy:firebase": "gatsby build --prefix-paths && firebase deploy"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

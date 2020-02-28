@@ -179,11 +179,11 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="React Tic-Tac-Toe"
-              link="http://llearn.me/React-Tic-Tac-Toe/"
+              title="Camphound"
+              link="https://camphound.io/"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              Example App I Made as Part of Learning React.
+              Hybrid Application Written in React and Ruby on Rails. Mostly Worked on Frontend Where I used Redux, Redux Thunk, Google Maps API, etc.
             </ProjectCard>
 
             <ProjectCard
@@ -204,11 +204,19 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="Kodeblok"
-              link="http://kodeblok.com/"
+              link="https://kodeblok.com/"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
               My Personal Blog Website Where I Talk About Freelancing, Developer Lifestyle and Latest Technology News.
               Built with Hugo and Hosted on Firebase.
+            </ProjectCard>
+            <ProjectCard
+              title="Meeting Room 365"
+              link="https://www.meetingroom365.com/"
+              bg="linear-gradient(to right, #E6451E 0%, #d0be45 100%)"
+            >
+              Meeting Room 365 is Node.Js Application For Managing Displays at Your Office. Besides Using Node.Js For Development, I Have Had 
+              an Oppurtunity to Use Various Third-party APIs in Order to Push the Product Forward.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -265,18 +273,20 @@ const Index = () => (
           <AboutDesc>
             Young software developer striving to inspire other young people and leave this world in better state than I
             have found it {currentYear} years ago. My hobbies include coding, reading and being part of developer's
-            community and trying to make it better, bigger and more efficient. I am also a proud member of BILD IT, a
+            community and trying to make it better, bigger and more efficient. I am also a proud member of BILD IT, an
             NGO that specializes in training and reeducating people in software development.
           </AboutDesc>
           <AboutDesc>
-            My range of expertise include about a dozen of languages from which I hold special place for JavaScript and
-            Go. I am also familiar with about a dozen of frameworks for either front or back end. Most notable
-            frameworks I know are: Node.Js, Express.js, Angular (4,5,6,7+), React, Gatsby, Spring, Django, Flask, Rails,
-            Laravel, etc.
+            I have worked on projects varying from Software-as-a-service applications with $5+ million 
+            in annual revenue to open-source free-to-use full-stack solutions. 
           </AboutDesc>
           <AboutDesc>
-            Additionally, I am quite good with Linux, Git, Docker, Cloud Services (Firebase and GCP) and VMs (Digital
-            Ocean Droplets and Google Compute Engine).
+          I LOVE developing applications using JavaScript. I am really fond of React and Redux but I can confidently say that I am
+            very proficient with Angular, Node.Js, Ruby on Rails, Go and Python.
+          </AboutDesc>
+          
+          <AboutDesc>
+            Additionally, I am quite good with other development tools such as Linux, Git, Docker and Cloud Services (Firebase, Google Cloud Platform, Digital Ocean).
           </AboutDesc>
         </Inner>
       </Content>
