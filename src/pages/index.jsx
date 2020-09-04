@@ -162,10 +162,7 @@ const Index = () => (
           <BigTitle>
             Hello, <br /> I'm Hodzic Adem.
           </BigTitle>
-          <Subtitle>
-            I'm creating elegant web solutions which I hope will change people's lives one day and inspire them to do
-            the same.
-          </Subtitle>
+          <Subtitle>I'm a full-stack developer specializing in MVP development for B2B SaaS startups.</Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -179,20 +176,21 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Camphound"
-              link="https://camphound.io/"
-              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+              title="Pequity"
+              link="https://www.getpequity.com/"
+              bg="linear-gradient(to right, #3F72FF 0%, #31BFEA 100%)"
             >
-              Hybrid Application Written in React and Ruby on Rails. Mostly Worked on Frontend Where I used Redux, Redux Thunk, Google Maps API, etc.
+              Pequity simplifies the complex and time-consuming process of building a competitive, scalable, and
+              equitable compensation program.
             </ProjectCard>
-
             <ProjectCard
-              title="Ever"
-              link="https://github.com/ever-co/ever"
-              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+              title="Meeting Room 365"
+              link="https://www.meetingroom365.com/"
+              bg="linear-gradient(to right, #E6451E 0%, #d0be45 100%)"
             >
-              Awesome Open Source Commerce Platform written in IAN Stack (Ionic, Angular and Nest.Js). Created Couple of
-              Adjustments on Angular Side and worked on supporting multiple Types of Databases on Backend.
+              Meeting Room 365 is Node.Js Application For Managing Displays at Your Office. Besides Using Node.Js For
+              Development, I Have Had an Oppurtunity to Use Various Third-party APIs in Order to Push the Product
+              Forward.
             </ProjectCard>
             <ProjectCard
               title="Escape Assist"
@@ -203,20 +201,30 @@ const Index = () => (
               products.
             </ProjectCard>
             <ProjectCard
+              title="Camphound"
+              link="https://camphound.io/"
+              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            >
+              Hybrid Application Written in React and Ruby on Rails. Mostly Worked on Frontend Where I used Redux, Redux
+              Thunk, Google Maps API, etc.
+            </ProjectCard>
+
+            <ProjectCard
+              title="Ever"
+              link="https://github.com/ever-co/ever"
+              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            >
+              Awesome Open Source Commerce Platform written in IAN Stack (Ionic, Angular and Nest.Js). Created Couple of
+              Adjustments on Angular Side and worked on supporting multiple Types of Databases on Backend.
+            </ProjectCard>
+
+            <ProjectCard
               title="Kodeblok"
               link="https://kodeblok.com/"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
               My Personal Blog Website Where I Talk About Freelancing, Developer Lifestyle and Latest Technology News.
               Built with Hugo and Hosted on Firebase.
-            </ProjectCard>
-            <ProjectCard
-              title="Meeting Room 365"
-              link="https://www.meetingroom365.com/"
-              bg="linear-gradient(to right, #E6451E 0%, #d0be45 100%)"
-            >
-              Meeting Room 365 is Node.Js Application For Managing Displays at Your Office. Besides Using Node.Js For Development, I Have Had 
-              an Oppurtunity to Use Various Third-party APIs in Order to Push the Product Forward.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -277,16 +285,17 @@ const Index = () => (
             NGO that specializes in training and reeducating people in software development.
           </AboutDesc>
           <AboutDesc>
-            I have worked on projects varying from Software-as-a-service applications with $5+ million 
-            in annual revenue to open-source free-to-use full-stack solutions. 
+            I have worked on projects varying from Software-as-a-service applications with $5+ million in annual revenue
+            to open-source free-to-use full-stack solutions.
           </AboutDesc>
           <AboutDesc>
-          I LOVE developing applications using JavaScript. I am really fond of React and Redux but I can confidently say that I am
-            very proficient with Angular, Node.Js, Ruby on Rails, Go and Python.
+            I LOVE developing applications using JavaScript. I've had a chance to work with all three major front-end
+            frameworks, Angular, React and Vue. On the backend I've used Node.Js, Django or Ruby on Rails. Rest
+            Framework.
           </AboutDesc>
-          
+
           <AboutDesc>
-            Additionally, I am quite good with other development tools such as Linux, Git, Docker and Cloud Services (Firebase, Google Cloud Platform, Digital Ocean).
+            Additionally, I am quite good with other development tools such as Linux, Git, Docker and Firebase.
           </AboutDesc>
         </Inner>
       </Content>
@@ -310,9 +319,11 @@ const Index = () => (
         <Inner>
           <Title>Want to Get in Touch With Me?</Title>
           <ContactText>
-            Say <a href="mailto:athos.blade@gmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://github.com/AdemHodzic">GitHub</a> &{' '}
-            <a href="https://www.linkedin.com/in/adem-hodzic-163984150/">LinkedIn</a>
+            <a href="mailto:contact@ademhodzic.com">Send me an email</a> or find me on{' '}
+            <a href="https://github.com/AdemHodzic">GitHub</a>,{' '}
+            <a href="https://www.linkedin.com/in/adem-hodzic-163984150/">LinkedIn</a> or {' '}
+            <a href="https://twitter.com/triforceOP">Twitter</a>.
+
           </ContactText>
         </Inner>
       </Content>
